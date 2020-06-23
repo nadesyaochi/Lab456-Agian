@@ -197,6 +197,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\CoursesController.cs" />
+    <Compile Include="Controllers\CoursesViewModel.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
@@ -213,6 +214,10 @@
     <Compile Include="Migrations\202006161647459_PopulateCategoryTable.cs" />
     <Compile Include="Migrations\202006161647459_PopulateCategoryTable.Designer.cs">
       <DependentUpon>202006161647459_PopulateCategoryTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202006230123250_AddNameColumnToApplicationUser.cs" />
+    <Compile Include="Migrations\202006230123250_AddNameColumnToApplicationUser.Designer.cs">
+      <DependentUpon>202006230123250_AddNameColumnToApplicationUser.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -306,6 +311,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202006161647459_PopulateCategoryTable.resx">
       <DependentUpon>202006161647459_PopulateCategoryTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006230123250_AddNameColumnToApplicationUser.resx">
+      <DependentUpon>202006230123250_AddNameColumnToApplicationUser.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
